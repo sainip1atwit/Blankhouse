@@ -8,7 +8,9 @@ export default function App() {
     <View className="flex-1 items-center justify-center bg-white" >
       <Text className="text-3xl">Blankhouse</Text>
       <StatusBar style="auto" />
-      <Link href='/profile' style={{ color: 'blue' }}>Go to Profile</Link>
+      {/*<Link href='/profile' style={{ color: 'blue' }}>Go to Profile</Link>*/}
+      <Link href='./(auth)/create-account1'>Create an Account</Link>
+      <Link href='./(auth)/log-in'>Log In</Link>
     </View>
   );
 }
